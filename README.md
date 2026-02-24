@@ -228,7 +228,3 @@ src/
  └── routes.tsx   # Configuração das rotas
 
 ```
-
----
-
-**Deseja que eu crie um exemplo de "Custom Hook" para gerenciar requisições de API de forma automática?**
