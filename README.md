@@ -1,14 +1,8 @@
-Aqui está a sua documentação completa, atualizada e formatada para copiar e colar em um arquivo `.md`. Ela inclui desde a configuração do ambiente até a proteção de rotas e consumo de APIs.
+# React + TypeScript + Vite
 
 ---
 
-# ⚛️ Documentação Master: React + TypeScript + Vite
-
-Guia de referência rápida para desenvolvimento moderno de SPAs.
-
----
-
-## 🚀 1. Setup do Ambiente
+## Setup do Ambiente
 
 O **Vite** substituiu o antigo *Create React App*. Ele possui **HMR (Hot Module Replacement)** nativo, então você **não precisa de nodemon**. O Vite recarrega apenas o módulo alterado instantaneamente ao salvar.
 
@@ -25,7 +19,7 @@ npm run dev
 
 ---
 
-## 🧩 2. Componentes e Props (TS)
+## Componentes e Props (TS)
 
 Componentes são funções. Use `interfaces` para tipar as propriedades.
 
@@ -50,7 +44,7 @@ export function Card({ title, description, children }: CardProps) {
 
 ---
 
-## 🎨 3. Estilização e Fontes
+## Estilização e Fontes
 
 ### Importando Fontes
 
@@ -79,7 +73,7 @@ const Button = styled.button<{ primary?: boolean }>`
 
 ---
 
-## 🛣️ 4. Roteamento (React Router v6)
+## Roteamento (React Router v6)
 
 `npm install react-router-dom`
 
@@ -118,7 +112,7 @@ export function AppRoutes() {
 
 ---
 
-## 🛠️ 5. Hooks Essenciais
+## Hooks Essenciais
 
 ### `useState`
 
@@ -147,7 +141,7 @@ const focar = () => inputRef.current?.focus();
 
 ---
 
-## 🔄 6. Renderização e Listas
+## Renderização e Listas
 
 ### Condicional
 
@@ -168,7 +162,7 @@ const focar = () => inputRef.current?.focus();
 
 ---
 
-## 🌐 7. Consumo de API
+## Consumo de API
 
 ### Fetch (Nativo)
 
@@ -203,7 +197,7 @@ const createUser = async (userData: object) => {
 
 ---
 
-## 📝 8. Formulários (Controlados)
+## Formulários (Controlados)
 
 ```tsx
 export function MyForm() {
@@ -230,7 +224,7 @@ export function MyForm() {
 
 ---
 
-## 🖱️ 9. Eventos Comuns (TS)
+## Eventos Comuns (TS)
 
 * `onClick={(e: React.MouseEvent) => ...}`
 * `onChange={(e: React.ChangeEvent<HTMLInputElement>) => ...}`
