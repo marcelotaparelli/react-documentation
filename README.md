@@ -1,7 +1,5 @@
 # React + TypeScript + Vite
 
----
-
 ## Setup do Ambiente
 
 O **Vite** substituiu o antigo *Create React App*. Ele possui **HMR (Hot Module Replacement)** nativo, então você **não precisa de nodemon**. O Vite recarrega apenas o módulo alterado instantaneamente ao salvar.
@@ -16,8 +14,6 @@ npm install
 npm run dev
 
 ```
-
----
 
 ## Componentes e Props (TS)
 
@@ -41,8 +37,6 @@ export function Card({ title, description, children }: CardProps) {
 }
 
 ```
-
----
 
 ## Estilização e Fontes
 
@@ -70,8 +64,6 @@ const Button = styled.button<{ primary?: boolean }>`
 // Uso: <Button primary>Clique aqui</Button>
 
 ```
-
----
 
 ## Roteamento (React Router v6)
 
@@ -110,8 +102,6 @@ export function AppRoutes() {
 
 ```
 
----
-
 ## Hooks Essenciais
 
 ### `useState`
@@ -139,8 +129,6 @@ const focar = () => inputRef.current?.focus();
 
 ```
 
----
-
 ## Renderização e Listas
 
 ### Condicional
@@ -159,8 +147,6 @@ const focar = () => inputRef.current?.focus();
 ))}
 
 ```
-
----
 
 ## Consumo de API
 
@@ -195,8 +181,6 @@ const createUser = async (userData: object) => {
 
 ```
 
----
-
 ## Formulários (Controlados)
 
 ```tsx
@@ -230,7 +214,6 @@ export function MyForm() {
 * `onChange={(e: React.ChangeEvent<HTMLInputElement>) => ...}`
 * `onSubmit={(e: React.FormEvent) => ...}`
 
----
 
 ### Pro-tip: Estrutura de Pastas
 
